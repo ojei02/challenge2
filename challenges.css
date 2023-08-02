@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+
+article {
+  border: 5px solid black;
+}
+
+header {
+  background-color: #e9e7e7;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+img {
+  padding: 15px;
+  width: 50;
+}
+h4 strong {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #000;
+}
+.free-shipping {
+  font-weight: 600;
+}
+
+a {
+  color: #000;
+  font-weight: 600;
+  line-height: 2;
+}
+
+a:link {
+  color: #191515;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  background-color: #000;
+  color: #c7c6c6;
+  font-style: italic;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  list-style: square;
+}
+.p-details {
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.item {
+  padding: 15px;
+}
+
+button {
+  background-color: black;
+  color: #c7c6c6;
+  font-size: large;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: italic;
+  border-top: 5px solid black;
+}
+
+.btn {
+  width: 100%;
+  padding: 2px;
+  height: 50px;
+}
+
+.main-content {
+  background-color: rgb(255, 255, 255);
+  width: 250%;
+  margin-top: 20px;
+}
+
+.wel {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.content1 {
+  background-color: #000;
+}
+
+.content2 {
+  background-color: #3402ff;
+}
+
+.content3 {
+  background-color: #ff0000;
+}
+.content4 {
+  background-color: #d5cb03;
+}
+
+.content5 {
+  background-color: #00e32a;
+}
+
+.content6 {
+  background-color: #440505;
+}
+
+h2::after {
+  content: "SALE";
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  width: 50px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  position: relative;
+}
+
+.section-item2 {
+  width: 243px;
+  float: left;
+}
+
+.section-item3 {
+  width: 243px;
+  float: left;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+img {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
